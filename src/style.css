@@ -1,0 +1,67 @@
+.topnav {
+	/* Make the top navigation */
+	overflow: hidden;
+	background-color: #333;
+	/* Add a wide and colorful pop-up for the navigation bar */
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* On Hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+/* On Click */
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+.body {
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Make the footer */
+footer {
+	color: #f2f2f2;
+	text-align: center;
+	/* Put the footer at the bottom of the page */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+
+/* Make <img> glow up when being hovered */
+img:hover {
+	-webkit-filter: drop-shadow(0 0 5px #FFFFFF);
+	filter: drop-shadow(0 0 15px #FFFFFF);
+	/* Make the image bigger when being hovered */
+	transform: scale(1.1);
+	transition: 0.5s;
+	/* Make glow color white */
+}
+/* Make the image animate back when not being hovered */
+img {
+	transition: 0.5s;
+}
+
+
+
