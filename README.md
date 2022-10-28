@@ -10,3 +10,8 @@ Web Server written completly in Ruby using the sockets/openssl libs :D </br>
 ## Core? 
 Want to be able to edit the response by core? well you can! </br>
 RopeBunny is small by design and comes with variables that can be used to create plugins/modules </br>
+
+## What will be added?
+* Embedded anti-DDOS system uwu
+* Patch for the /// bug (Server doesn't send a response lul, so it's not critical)
+* more uwu
