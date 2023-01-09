@@ -1,0 +1,63 @@
+{
+    "ServerId": 806761916949200897,
+    "Database": {
+        "OptOut": "../db/optout.json",
+        "Data": "../db/data",
+        "Pic": "../db/pic",
+        "Banner": "../db/banner",
+        "Dob": "../db/dob.json",
+        "Tmp": "../db/tmp.json"
+    },
+    "Logs": {
+        "Admin": "../logs/admin",
+        "Welcomer": "../logs/welcomer",
+        "Moderation": "../logs/moderation"
+    },
+    "Status": {
+        "Welcomer": "online",
+        "Admin": "online"
+    },
+    "Bots": {
+        "Post": {
+            "Token": "",
+            "ClientId": "",
+            "Channel": [],
+            "Limit": {
+                "Characters": 2000,
+                "Lines": 10,
+                "Link": 1,
+                "Mention": 1
+            }
+        },
+        "Welcomer": {
+            "Token": "",
+            "ClientId": "",
+            "AccountLimit": {
+                "Min": 4,
+                "Max": 7
+            },
+            "Reply": {
+                "Response": "Thank you for applying to our server! We will get back to you as soon as possible.",
+                "Questions": [
+                    "First Question, Have you Read The Rules and understood them in the #welcome area?",
+                    "May we ask what brings you to Artifact?",
+                    "Can we ask how you found this server?",
+                    "Are you a artist or a commissioner or both?",
+                    "What is your favorite thing in Art to do?",
+                    "Last Question, What is your favorite color?"
+                ]
+            },
+            "Reactions": {
+                "Approve": "✅",
+                "Deny": "❌",
+                "Ban": "🚫",
+                "Ask": "📝"
+            },
+            "ApprovedRole": 1052444544953753651,
+            "Channel": 1052443885563023483,
+            "Assistance": 1052444544953753651
+
+        }
+
+    }
+}
