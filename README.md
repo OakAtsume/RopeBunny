@@ -7,11 +7,9 @@ Web Server written completly in Ruby using the sockets/openssl libs :D </br>
 * Fast CSR (Client side rendering) </br>
 * Stable, Small, and reliable by design </br>
 
-## Core? 
-Want to be able to edit the response by core? well you can! </br>
-RopeBunny is small by design and comes with variables that can be used to create plugins/modules </br>
-
-## What will be added?
-* Embedded anti-DDOS system uwu
-* Patch for the /// bug (Server doesn't send a response lul, so it's not critical)
-* more uwu
+## Features
+* SSR (Server Side rendering system) </br>
+* Built-in data parsing utils </br>
+* Login data with SHA256 hashing </br>
+* Cookie based Auth (with a token generation function) </br>
+* Modular! </br>
