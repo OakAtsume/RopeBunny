@@ -1,0 +1,40 @@
+{
+	"Server": {
+		"Port": 8080,
+		"sslKey": "../Panel/ssl/server.key",
+		"sslCert": "../Panel/ssl/server.crt",
+		"verifySSL": false,
+		"maxReadBuffer": 1024
+	},
+	"Files": [
+		"ico",
+		"jpg",
+		"jpeg",
+		"png",
+		"gif",
+		"svg",
+		"css",
+		"js",
+		"txt",
+		"webp"
+	],
+	"Paths": {
+		"root": "../Panel/src",
+		"robots": "robots.txt",
+		"favicon": "favicon.ico",
+		"error": {
+			"404": "../Panel/src/error/404.html",
+			"500": "500.html",
+			"503": "503.html",
+			"FireLock": "../Panel/src/error/blocked.html"
+		}
+	},
+	"FireLock": {
+		"db": "../db/firelock.json"
+	},
+	"Database": "../db/auth",
+	"Configs": [
+		"../configs/AdminBot.json",
+		"../configs/GlobalConfig.json"
+	]
+}
